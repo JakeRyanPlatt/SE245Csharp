@@ -1,0 +1,5 @@
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week2/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week2/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.AssemblyInfoInputs.cache
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week2/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.AssemblyInfo.cs
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week2/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.csproj.CoreCompileInputs.cache
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week2/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.sourcelink.json

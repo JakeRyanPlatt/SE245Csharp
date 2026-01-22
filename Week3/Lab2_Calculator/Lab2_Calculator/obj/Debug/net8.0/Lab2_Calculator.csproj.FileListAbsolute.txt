@@ -1,0 +1,16 @@
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.AssemblyInfoInputs.cache
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.AssemblyInfo.cs
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.csproj.CoreCompileInputs.cache
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.sourcelink.json
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator.dll.config
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator.deps.json
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator.runtimeconfig.json
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator.dll
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/bin/Debug/net8.0/Lab2_Calculator.pdb
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.dll
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/refint/Lab2_Calculator.dll
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.pdb
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/Lab2_Calculator.genruntimeconfig.cache
+/home/momtookmycomputer/Desktop/source/repos/SE245Csharp/Week3/Lab2_Calculator/Lab2_Calculator/obj/Debug/net8.0/ref/Lab2_Calculator.dll
