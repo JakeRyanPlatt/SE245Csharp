@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Jake Platt
+// SE245
+// 2/4/2026
+// This program demonstrates a Person class with property-based validation
+
+using System;
 
 namespace Lab4_FormValid
 {
