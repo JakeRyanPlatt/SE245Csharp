@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Fname = new System.Windows.Forms.Label();
             this.txtFname = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Lname = new System.Windows.Forms.Label();
+            this.txtLname = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Mname = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.Street1 = new System.Windows.Forms.Label();
+            this.txtMname = new System.Windows.Forms.TextBox();
+            this.txtStreet1 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.Street2 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtstreet2 = new System.Windows.Forms.TextBox();
             this.City = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
             this.State = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtState = new System.Windows.Forms.TextBox();
             this.ZIPCODE = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtZip = new System.Windows.Forms.TextBox();
             this.PhoneNumber = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.lblFeedback = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Fname
@@ -80,16 +80,16 @@
             this.textBox1.Size = new System.Drawing.Size(252, 21);
             this.textBox1.TabIndex = 2;
             // 
-            // Lname
+            // txtLname
             // 
-            this.Lname.AutoSize = true;
-            this.Lname.Location = new System.Drawing.Point(29, 94);
-            this.Lname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lname.Name = "Lname";
-            this.Lname.Size = new System.Drawing.Size(79, 13);
-            this.Lname.TabIndex = 3;
-            this.Lname.Text = "Last Name:";
-            this.Lname.Click += new System.EventHandler(this.label1_Click);
+            this.txtLname.AutoSize = true;
+            this.txtLname.Location = new System.Drawing.Point(29, 94);
+            this.txtLname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtLname.Name = "txtLname";
+            this.txtLname.Size = new System.Drawing.Size(79, 13);
+            this.txtLname.TabIndex = 3;
+            this.txtLname.Text = "Last Name:";
+            this.txtLname.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox2
             // 
@@ -110,23 +110,23 @@
             this.Mname.Text = "Middle Name:";
             this.Mname.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // textBox3
+            // txtMname
             // 
-            this.textBox3.Location = new System.Drawing.Point(140, 59);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(252, 21);
-            this.textBox3.TabIndex = 6;
+            this.txtMname.Location = new System.Drawing.Point(140, 59);
+            this.txtMname.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtMname.Name = "txtMname";
+            this.txtMname.Size = new System.Drawing.Size(252, 21);
+            this.txtMname.TabIndex = 6;
             // 
-            // Street1
+            // txtStreet1
             // 
-            this.Street1.AutoSize = true;
-            this.Street1.Location = new System.Drawing.Point(29, 126);
-            this.Street1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Street1.Name = "Street1";
-            this.Street1.Size = new System.Drawing.Size(59, 13);
-            this.Street1.TabIndex = 7;
-            this.Street1.Text = "Street1:";
+            this.txtStreet1.AutoSize = true;
+            this.txtStreet1.Location = new System.Drawing.Point(29, 126);
+            this.txtStreet1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtStreet1.Name = "txtStreet1";
+            this.txtStreet1.Size = new System.Drawing.Size(59, 13);
+            this.txtStreet1.TabIndex = 7;
+            this.txtStreet1.Text = "Street1:";
             // 
             // textBox4
             // 
@@ -146,13 +146,13 @@
             this.Street2.TabIndex = 9;
             this.Street2.Text = "Street2:";
             // 
-            // textBox5
+            // txtstreet2
             // 
-            this.textBox5.Location = new System.Drawing.Point(140, 156);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(252, 21);
-            this.textBox5.TabIndex = 10;
+            this.txtstreet2.Location = new System.Drawing.Point(140, 156);
+            this.txtstreet2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtstreet2.Name = "txtstreet2";
+            this.txtstreet2.Size = new System.Drawing.Size(252, 21);
+            this.txtstreet2.TabIndex = 10;
             // 
             // City
             // 
@@ -164,13 +164,13 @@
             this.City.TabIndex = 11;
             this.City.Text = "City:";
             // 
-            // textBox6
+            // txtCity
             // 
-            this.textBox6.Location = new System.Drawing.Point(140, 190);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(252, 21);
-            this.textBox6.TabIndex = 12;
+            this.txtCity.Location = new System.Drawing.Point(140, 190);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(252, 21);
+            this.txtCity.TabIndex = 12;
             // 
             // State
             // 
@@ -182,13 +182,13 @@
             this.State.TabIndex = 13;
             this.State.Text = "State:";
             // 
-            // textBox7
+            // txtState
             // 
-            this.textBox7.Location = new System.Drawing.Point(140, 224);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(252, 21);
-            this.textBox7.TabIndex = 14;
+            this.txtState.Location = new System.Drawing.Point(140, 224);
+            this.txtState.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtState.Name = "txtState";
+            this.txtState.Size = new System.Drawing.Size(252, 21);
+            this.txtState.TabIndex = 14;
             // 
             // ZIPCODE
             // 
@@ -200,13 +200,13 @@
             this.ZIPCODE.TabIndex = 15;
             this.ZIPCODE.Text = "Zip Code:";
             // 
-            // textBox8
+            // txtZip
             // 
-            this.textBox8.Location = new System.Drawing.Point(140, 261);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(252, 21);
-            this.textBox8.TabIndex = 16;
+            this.txtZip.Location = new System.Drawing.Point(140, 261);
+            this.txtZip.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtZip.Name = "txtZip";
+            this.txtZip.Size = new System.Drawing.Size(252, 21);
+            this.txtZip.TabIndex = 16;
             // 
             // PhoneNumber
             // 
@@ -218,13 +218,13 @@
             this.PhoneNumber.TabIndex = 17;
             this.PhoneNumber.Text = "Phone Number:";
             // 
-            // textBox9
+            // txtPhone
             // 
-            this.textBox9.Location = new System.Drawing.Point(152, 304);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(240, 21);
-            this.textBox9.TabIndex = 18;
+            this.txtPhone.Location = new System.Drawing.Point(152, 304);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(240, 21);
+            this.txtPhone.TabIndex = 18;
             // 
             // Email
             // 
@@ -236,13 +236,13 @@
             this.Email.TabIndex = 19;
             this.Email.Text = "Email:";
             // 
-            // textBox10
+            // txtEmail
             // 
-            this.textBox10.Location = new System.Drawing.Point(152, 338);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(240, 21);
-            this.textBox10.TabIndex = 20;
+            this.txtEmail.Location = new System.Drawing.Point(152, 338);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(240, 21);
+            this.txtEmail.TabIndex = 20;
             // 
             // btnAdd
             // 
@@ -256,6 +256,20 @@
             this.btnAdd.TabIndex = 21;
             this.btnAdd.Text = "Submit!";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // lblFeedback
+            // 
+            this.lblFeedback.BackColor = System.Drawing.Color.White;
+            this.lblFeedback.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblFeedback.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFeedback.Location = new System.Drawing.Point(440, 29);
+            this.lblFeedback.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFeedback.Name = "lblFeedback";
+            this.lblFeedback.Padding = new System.Windows.Forms.Padding(10);
+            this.lblFeedback.Size = new System.Drawing.Size(400, 250);
+            this.lblFeedback.TabIndex = 22;
+            this.lblFeedback.Text = "Fill out the form and click Submit";
             // 
             // Form1
             // 
@@ -263,30 +277,30 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(1067, 450);
+            this.Controls.Add(this.lblFeedback);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.Email);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.PhoneNumber);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtZip);
             this.Controls.Add(this.ZIPCODE);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtState);
             this.Controls.Add(this.State);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtCity);
             this.Controls.Add(this.City);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtstreet2);
             this.Controls.Add(this.Street2);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.Street1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtStreet1);
+            this.Controls.Add(this.txtMname);
             this.Controls.Add(this.Mname);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.Lname);
+            this.Controls.Add(this.txtLname);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtFname);
             this.Controls.Add(this.Fname);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Contacts";
@@ -300,25 +314,25 @@
         private System.Windows.Forms.Label Fname;
         private System.Windows.Forms.Label txtFname;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label Lname;
+        private System.Windows.Forms.Label txtLname;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label Mname;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label Street1;
+        private System.Windows.Forms.TextBox txtMname;
+        private System.Windows.Forms.Label txtStreet1;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label Street2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtstreet2;
         private System.Windows.Forms.Label City;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.Label State;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtState;
         private System.Windows.Forms.Label ZIPCODE;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtZip;
         private System.Windows.Forms.Label PhoneNumber;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label Email;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Label lblFeedback;
     }
 }
-
