@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MidTermAssignment
+namespace WinFormPerson
 {
     public partial class Form1 : Form
     {
@@ -18,11 +18,6 @@ namespace MidTermAssignment
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

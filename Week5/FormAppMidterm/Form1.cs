@@ -1,14 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics.Eventing.Reader;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Week4_BookClassinWindows;
 
 namespace FormAppMidterm
 {
@@ -19,91 +10,72 @@ namespace FormAppMidterm
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            // Fill the Text property of the Feedback variable with the book title, price, and date published with some desccriptive text/strings
-            // the "value" propterty of a DateTimePicker returns a DateTime variable. We convertt it to a string in order to append it to thenstirng/text/
-            //lblFeedback.Text = "Book Added: " + txtTitle.Text + "($" + txtPrice.Text + ") - Published: " + dtpDatePublished.Value.ToString();
+            // Get user input, validate, and display results
+            Person temp = new Person(); // Creates instance
 
-            Book temp = new Book(); // Creates instance
-            temp.Title = txtTitle.Text; // set title
-            temp.AuthorFirst = txtFname.Text; // set author first name
-            temp.AuthorLast = txtLname.Text; // set author last name
-            temp.Pages = Int32.Parse(txtNumPages.Text);
+            // Initialize feedback to empty string
+            temp.Feedback = "";
 
-            // Email validation
-            temp.Email = txtEmail.Text; // set email
+            // Set basic fields
+            temp.FirstName = txtFname.Text;
+            temp.LastName = txtLname.Text;
 
+            // Email validation (must have @ and .)
+            temp.Email = txtEmail.Text;
             if (temp.Email.Contains("@") == false || temp.Email.Contains(".") == false)
             {
-                temp.Feedback += "ERROR: Invalid Email Format. Ex:BobAlice@hotmail.com ";
+                temp.Feedback += "ERROR: Invalid Email Format. Ex: BobAlice@gmail.com\n";
+            }
+
+            // State validation (2-letter US abbreviation, letters only)
+            temp.State = txtState.Text.Trim().ToUpper();
+            if (temp.State.Length != 2)
+            {
+                temp.Feedback += "ERROR: State must be 2 letters. Ex: MA, NY\n";
             }
             else
             {
-                temp.Email = txtEmail.Text; // set emails
+                // Check that both characters are letters
+                if (!char.IsLetter(temp.State[0]) || !char.IsLetter(temp.State[1]))
+                {
+                    temp.Feedback += "ERROR: State must contain only letters. Ex: MA, NY\n";
+                }
             }
 
-                temp.Feedback = ""; // initialize feedback to empty string
-
-            // Price validation
-            double tPrice = 0;
-            if (double.TryParse(txtPrice.Text, out tPrice))
+            // ZIP validation (exactly 5 digits)
+            temp.Zip = txtZip.Text.Trim();
+            if (temp.Zip.Length != 5)
             {
-                temp.Price = tPrice; // set price if valid
+                temp.Feedback += "ERROR: ZIP must be exactly 5 digits. Ex: 02886\n";
             }
             else
             {
-                temp.Feedback += "ERROR: Invalid Price Format.Ex: 5.98 ";
+                int zipNum;
+                if (int.TryParse(temp.Zip, out zipNum) == false)
+                {
+                    temp.Feedback += "ERROR: ZIP must be numeric. Ex: 02886\n";
+                }
             }
 
-            // Date Published Validation
-            temp.DatePublished = dtpDatePublished.Value; // set date published
-
+            // Check for any errors
             if (temp.Feedback.Contains("ERROR:"))
             {
-                // If there are errrors, show the error msgs in order to prompt fixes
+                // If there are errors, show the error msgs to prompt fixes
+                lblFeedback.ForeColor = System.Drawing.Color.Red;
                 lblFeedback.Text = temp.Feedback;
             }
             else
+            {
                 // Else, we have no errors, show results
-                lblFeedback.Text = "Book Added: " + temp.Title + " ($ " + temp.Price.ToString() + ") - Published: " + temp.DatePublished.ToString();
-
+                lblFeedback.ForeColor = System.Drawing.Color.Green;
+                lblFeedback.Text = "Person Added: " +
+                    temp.FirstName + " " + temp.LastName +
+                    " | Email: " + temp.Email +
+                    " | State: " + temp.State +
+                    " | ZIP: " + temp.Zip;
             }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numPages_Click(object sender, EventArgs e)
-        {
-
         }
     }
-    }
-
+}
