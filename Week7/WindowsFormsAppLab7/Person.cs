@@ -76,5 +76,7 @@ namespace WindowsFormsAppLab7
 
         public override string ToString() =>
             $"{FName} {LName} | Email: {Email} | Age: {Age}";
+
+        
     }
 }
