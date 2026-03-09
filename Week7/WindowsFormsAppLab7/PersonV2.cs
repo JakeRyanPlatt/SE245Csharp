@@ -14,7 +14,7 @@ namespace WindowsFormsAppLab7
             @"Server=sql.neit.edu\studentssqlserver,4500;" +
              "Database=dev_202620_jrplatt;" +
              "User Id=dev_202620_jrplatt;" +
-             "Password=008024861;" +
+             "Password= ;" +
              "TrustServerCertificate=True;";
 
         //  Properties 
